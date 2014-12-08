@@ -1,0 +1,21 @@
+The submission contains the following files
+-------------------------------------------
+1. submissionsun.R   - R code which does the basic page rank
+2. assignmentdataset - the dataset given as graph in the mail
+3. pagerankscores    - page rank scores for the nodes in the test dataset
+
+Steps to run code
+-----------------
+Rsript submissionsun.R
+
+Expected output
+---------------
+identical at i ==  21  , we have reached a matrix which does not change over iterations
+Upon pagerank, the nodes are ranked in the following order : DocID [1] 5 4 3 2 6 1
+The page rank scores for the nodes are as follows
+[1,] 0.00
+[2,] 0.05
+[3,] 0.05
+[4,] 0.05
+[5,] 0.05
+[6,] 0.01
